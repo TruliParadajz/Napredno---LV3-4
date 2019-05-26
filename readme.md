@@ -1,3 +1,13 @@
+INSTRUCTIONS:
+
+Download project as a .zip and unpack it in your htdocs folder (XAMPP).
+After unpacking open your cmd or terminal inside a projekti folder and update composer.
+
+After updating composer change database connection settings inside .env file 
+(host: localhost or 127...., username: root, password:, db: projekti). It is mandatory to create a database before running migrations. 
+
+After successfully finishing previous steps run migrations and then run the project through your browser.
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
